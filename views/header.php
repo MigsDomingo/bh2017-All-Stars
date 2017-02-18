@@ -19,7 +19,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="#">FactSource</a>
+    <a class="navbar-brand" href="index.php">FactSource</a>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
@@ -127,5 +127,6 @@
 </nav>
 	<script src="../js/jquery-3.1.1.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/scripts.js"></script>
 </body>
 </html>
