@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	
 </head>
 <body>
 	<?php include("header.php"); ?>
@@ -31,7 +31,7 @@
 							</a>
 						</div>
 						<div class="media-body">
-							<h4 class="media-heading"><a href="">The metaphysics of memes is a growing field.</a></h4>
+							<h4 class="media-heading"><a href="content.php">The metaphysics of memes is a growing field.</a></h4>
 							<small>
 								Submitted an hour ago by <a href="">dankMemes</a> to <a href="">PHILOSOPHY</a><br>
 								<a href=""><b>9999 comments</b></a>
