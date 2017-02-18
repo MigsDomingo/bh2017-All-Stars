@@ -7,7 +7,9 @@
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <body>
+
 	<nav class="navbar navbar-default" role="navigation">
+	<div class="container">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header col-md-2">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -56,6 +58,7 @@
 	    </ul>
 	  </div>
   </div><!-- /.navbar-collapse -->
+</div>
 </nav>
 	<script src="../js/jquery-3.1.1.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
