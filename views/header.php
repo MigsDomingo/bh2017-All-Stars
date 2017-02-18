@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-<div style="padding-bottom:40px">
+<div>
 	<nav class="navbar navbar-default" role="navigation">
 	<div class="container">
   <!-- Brand and toggle get grouped for better mobile display -->

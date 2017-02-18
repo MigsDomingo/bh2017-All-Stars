@@ -2,11 +2,10 @@
 <html>
 <head>
 	<title></title>
-	
 </head>
 <body>
 	<?php include("header.php"); ?>
-	<div class="container">
+	<div class="container padding">
 		<div class="row">
 			<div class="col-md-3">
 				<h4>Feeds</h4>
