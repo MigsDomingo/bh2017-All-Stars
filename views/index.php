@@ -6,7 +6,7 @@
 </head>
 <body>
 	<?php include("header.php"); ?>
-	<div class="container" style="padding-top:50px">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-3">
 				<h4>Feeds</h4>

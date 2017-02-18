@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-
+<div style="padding-bottom:40px">
 	<nav class="navbar navbar-default" role="navigation">
 	<div class="container">
   <!-- Brand and toggle get grouped for better mobile display -->
@@ -59,6 +59,7 @@
 	    </ul>
 	  </div>
   </div><!-- /.navbar-collapse -->
+</div>
 </div>
 </nav>
 	<script src="../js/jquery-3.1.1.js"></script>
