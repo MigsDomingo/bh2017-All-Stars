@@ -15,3 +15,74 @@ small
     float: none;
     margin: 0 auto;
 }
+.btn-main{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #666666;
+	outline-style: none;
+	box-shadow: 0 1px 1px 1px rgba(0,0,0,0.3), 0 1px 1px 1px rgba(0,0,0,0.3);
+}
+.btn-main:hover{
+	border-color: #888888;
+}
+.btn-agree{
+background-color: #6CC6E8;
+ 	
+}
+.btn-txt-agree{
+  font-size:45px;
+	background-color: rgba(38,126,160,1);
+	 color: transparent;
+  text-shadow: 0px 1px 1px rgba(255,255,255,.2);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+
+}
+.btn-txt-disagree{
+  font-size:45px;
+  background-color: rgba(126,11,11,1);
+   color: transparent;
+  text-shadow: 0px 1px 1px rgba(255,255,255,.2);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+
+}
+.btn-disagree{
+	background-color: #E42E2D;
+}
+.btn-agree:hover {
+    background-color: #7DD0F0;
+    color: white;
+}
+.btn-disagree:hover {
+    background-color: #E43F3F;
+    color: white;
+}
+
+.padding{
+	padding-top: 10px;
+}
+
+.navbar {
+    margin-bottom: 0 !important;
+}
+
+.no-padding-left {
+   padding-right: 30px !important;
+   margin-left: 0 !important;
+}
+
+.no-padding-right {
+  padding-left: 30px !important;
+   margin-right: 0 !important;
+}
+
+.content-left{
+  border-right: 1px dashed #333;
+}
+/*.content-right{
+  border-right: 1px dashed #333;
+  padding-left: -10px;
+}*/
