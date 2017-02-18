@@ -1,0 +1,52 @@
+/*Index CSS*/
+
+/*here goes all of your css styling*/
+
+body{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#wrapper{
+	width: 700px;
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+/*whole screen*/
+#whole-screen{
+	position: fixed;; 
+	z-index: -1; 
+	top: 0; 
+	left: 0; 
+	background-color: black;
+}
+#whole-screen img.bgfade{
+	position: absolute;
+	top: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	z-index: -100;
+}
+
+
+/*single div*/
+#single-div{
+	position: relative;
+	width: 100%;
+	height: 400px;
+} 
+#single-div #img-background img.bgfade{
+	top: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+#single-div-contents{
+	padding: 50px;
+	position: relative;
+	z-index: 10;
+}

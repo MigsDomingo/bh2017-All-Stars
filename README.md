@@ -1,1 +1,0 @@
-# bh2017-All-Stars
