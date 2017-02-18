@@ -86,3 +86,6 @@ background-color: #6CC6E8;
   border-right: 1px dashed #333;
   padding-left: -10px;
 }*/
+a:hover,a:visited {
+    text-decoration: none;
+}
