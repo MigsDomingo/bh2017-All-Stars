@@ -1,0 +1,91 @@
+// App a = new App();
+var App = (function() {
+	var $firstNameBox			= $("#fname");
+	var $lastNameBox			= $("#lname");
+	var $usernameBox			= $("#username");
+	var $passwordBox			= $("#password");
+	var $table 					= $("#user-list");
+	var $userBtnSave				= $("#btn-save-user");
+	var messages					= [];
+	var $responseText			= $("#responseText");
+	var urlSaveMsg				= "http://localhost:9999/users/add";
+	var urlFetchMsgs				= "/api/v1/messages";
+
+	
+	var _initGUI = function() {
+		$firstNameBox				= $("#fname");
+		$lastNameBox				= $("#lname");
+		$usernameBox				= $("#username");
+		$passwordBox				= $("#password");
+		$userBtnSave				= $("#btn-save-user");
+		$responseText				= $("#responseText");
+		$table			= $("#user-list");
+	}
+	
+	// constructor
+	var init = function() {
+		_initGUI();
+		$userBtnSave	= $("#btn-save-user");
+		$userBtnSave.on('click', function() {
+			var firstNameText 			= $firstNameBox.val();
+			var lastNameText 			= $lastNameBox.val();
+			var usernameText 			= $usernameBox.val();
+			var passwordText			= $passwordBox.val();
+			_saveMessage(firstNameText, lastNameText, usernameText, passwordText);
+		});
+		_renderUsers();
+	}
+	
+	var _saveMessage = function(firstNameText, lastNameText, usernameText, passwordText) {
+		// String message = request.get("message");
+		$.ajax({
+			// headers: {
+				// 'Accept': 'application/json',
+				// 'Content-Type': 'application/json',
+			// 	'Access-Control-Allow-Origin': '*'
+			// },
+			url: urlSaveMsg,
+			method: 'POST',
+			data: JSON.stringify({
+				firstName: firstNameText,
+				lastName: lastNameText,
+				username: usernameText,
+				password: passwordText
+			}),
+			contentType: 'application/json; charset=UTF-8',
+			crossDomain:true,
+			dataType: 'json',
+			success: function(response) {
+				$responseText.html(response.message)
+			},
+			error: function(response) {
+			}
+		});
+	}
+	
+	var _renderUsers = function() {
+		$.ajax({
+			url: "http://localhost:9999/users/all",
+			method: 'GET',
+			dataType: 'json',
+			crossDomain:true,
+			success: function(response) {
+				// { messages: messages }
+				console.log(response);
+				//users = response.allUsers;
+				users = response;
+				for(var i = 0; i < users.length; i++){
+					$table.append("<tr>");
+					$table.append("<td>" + users[i].lastName + "</td>" + "<td>" + users[i].firstName + "</td>" + "<td>" + users[i].username + "</td>");
+					$table.append("</tr>");
+				}
+			},
+			error: function(response) {
+			}
+		});
+	}
+	
+	return {
+		init: init
+	};
+})();
