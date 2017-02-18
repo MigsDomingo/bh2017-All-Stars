@@ -5,9 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-<div style="padding-bottom:40px">
+<div>
 	<nav class="navbar navbar-default" role="navigation">
 	<div class="container">
   <!-- Brand and toggle get grouped for better mobile display -->
