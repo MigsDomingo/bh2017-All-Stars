@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create User</title>
+	<meta charset="UTF-8">
+		<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+		<script src="./javascript/create_user.js"></script>
+
+	<link rel='stylesheet prefetch' href='css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='css/bootstrap.css'>
+    <link rel='stylesheet' href='css/style.css'>
+
+        <link rel="stylesheet" href="css/apsi.css">
+      <style type="text/css">
+      body {
+      background-color: #F5F5F5;
+      }
+	      .onprocess {
+			float:left;
+			width:1100px;
+			overflow-y: auto;
+			height: auto;
+      }
+      </style>
+</head>
+<body>
+	<p id="responseText"> </p>
+	
+		First Name: <input type="text" id="fname"><br />
+		Last Name: <input type="text" id="lname"><br />
+		Username: <input type="text" id="username"><br />
+		Password: <input type="password" id="password"><br />
+		Occupation: <input type="text" id="occupation"><br />
+		<button id="btn-save-user">
+				Create User
+	    </button>
+		
+		<button id="btn-show-user">
+				Refresh Users
+		</button>
+		<br /><br /><br />
+		<div class="container">
+    	<table class="table table-bordered table-responsive" id="user-list">
+        	<tr>
+        	<th>Last Name</th>
+        	<th>First Name</th>         
+        	<th>Username</th>          
+			<th>Occupation</th>
+        	</tr>
+        </table>
+		</div>
+		<form action="http://localhost:9999/users/remove" method="post">
+		  First Name: <input type="text" name="firstname"><br>
+		  <input type="submit" value="Delete Users">
+		</form>
+	<script>
+		$(document).ready(function() {
+			App.init();
+		});
+	</script>
+</body>
+</html>
