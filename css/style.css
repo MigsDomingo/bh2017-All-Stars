@@ -1,0 +1,13 @@
+.divBotBorder
+{
+  
+   border-width: 1px;
+   border-bottom-width:.2px;
+   border-bottom-color:#C1C1C1;
+   border-bottom-style: solid;
+   width: 100%;
+}
+small
+{
+	color:#919191;
+}
