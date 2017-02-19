@@ -80,7 +80,7 @@ background-color: #6CC6E8;
 }
 
 .content-left{
-  border-right: 1px dashed #333;
+  border-right: 1px dashed #333;  
 }
 /*.content-right{
   border-right: 1px dashed #333;
@@ -88,4 +88,14 @@ background-color: #6CC6E8;
 }*/
 a:hover,a:visited {
     text-decoration: none;
+}
+.move2{
+  display:hidden;
+}
+
+.source{
+    display:block; width: 440px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
