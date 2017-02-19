@@ -15,9 +15,10 @@
 		{
 			array_push($response,array("id"=>$row[0],"uid"=>$row[1],"category"=>$row[2],"title"=>$row[3],"comment_id"=>$row[4]));
 		}
-		echo $row[0];
-		/*echo json_encode(array("server_response"=>$response));
-		mysqli_close($con);*/
+		//echo json_encode(array("server_response"=>$response));
+		mysqli_close($con);
+		$lol = json_encode(array("server_response"=>$response));
+		//echo $lol[1];
 	?>
 	<br><br><br>
 	<div class="container padding">
