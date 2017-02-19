@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
+
 <div>
 	<nav class="navbar navbar-default" role="navigation">
 	<div class="container">
@@ -19,7 +20,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="#">FactSource</a>
+    <a class="navbar-brand" href="index.php">FactSource</a>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
@@ -126,5 +127,6 @@
 </nav>
 	<script src="../js/jquery-3.1.1.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/scripts.js"></script>
 </body>
 </html>
