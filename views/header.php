@@ -36,7 +36,8 @@
     </div>
     <div>
 	    <ul class="nav navbar-nav navbar-right">
-	      <li class="dropdown">
+		  <?php if(isset($_SESSION)){
+			echo '<li class="dropdown">
 	        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Notifications<b class="caret"></b></a>
 	        <ul class="dropdown-menu">
 	          <li>asghdkfasjhdfgjaskhfgjakhsgfjkasdhgfjkashgfjkashgfjkashfgjkashgfjaskhfg</li>
@@ -45,13 +46,11 @@
 	          <li class="divider"></li>
 	          <li><a href="#">Separated link</a></li>
 	        </ul>
-	      </li>
-	      <li>
-	        <a href="#" data-toggle="modal" data-target=".bs-register-modal-sm">Register</a>
-	      </li>
-		  <li>
-	        <a href="#" data-toggle="modal" data-target=".bs-login-modal-sm">Login</a>
-	      </li>
+			</li>';
+		  }else{
+			   echo '<li><a href="#" data-toggle="modal" data-target=".bs-register-modal-sm" id="re">Register</a></li>';
+			   echo '<li><a href="#" data-toggle="modal" data-target=".bs-login-modal-sm" id="login">Login</a></li>';
+		  } ?>
 	    </ul>
 		<div class="modal fade bs-register-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
 			<div class="modal-dialog modal-sm" role="document">
@@ -109,7 +108,7 @@
 					<div class="modal-body">
 						<form role="form">
 			    			<div class="form-group">
-			    				<input type="text" name="user" id="user" class="form-control input-sm" placeholder="Username">
+			    				<input type="text" name="username" id="username" class="form-control input-sm" placeholder="Username">
 			    			</div>
 							<div class="form-group">
 			    				<input type="password" name="password" id="password" class="form-control input-sm" placeholder="Password">
