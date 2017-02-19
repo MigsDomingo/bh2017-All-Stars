@@ -21,7 +21,7 @@
 					<a href=""><li>Theology</li></a>
 					<a href=""><li>Films</li></a>
 					<a href=""><li>Philosophy</li></a>
-					<li><a href="">hue</a></li>
+					<li><a href="category.php">Technology</a></li>
 				</ul>
 			</div>
 			<div class="col-md-9">
@@ -100,7 +100,7 @@
 						<div class="media-body">
 							<h4 class="media-heading"><a href="">Apple is older than Microsoft.</a></h4>
 							<small>
-								Submitted 9 hours ago by <a href="">TheGuy81</a> to <a href="">TECHNOLOGY</a><br>
+								Submitted 9 hours ago by <a href="">TheGuy81</a> to <a href="category.php">TECHNOLOGY</a><br>
 								<a href=""><b>88 comments</b></a>
 							</small><br>
 						</div>
@@ -115,7 +115,7 @@
 						<div class="media-body">
 							<h4 class="media-heading"><a href="">Dynamic Scoping is bad.</a></h4>
 							<small>
-								Submitted 9 hours ago by <a href="">PullTheRug_90</a> to <a href="">TECHNOLOGY</a><br>
+								Submitted 9 hours ago by <a href="">PullTheRug_90</a> to <a href="category.php">TECHNOLOGY</a><br>
 								<a href=""><b>516 comments</b></a>
 							</small><br>
 						</div>
