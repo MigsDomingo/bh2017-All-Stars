@@ -7,11 +7,10 @@
 <?php include("header.php"); ?>
 <div class="row jumbotron">
 	<div class="container padding">
-		<center><h2>The metaphysics of memes is a growing field.</h2>
-			<p><a href="http://memes.com">http://memes.com</a></p></center>
+		<center><h2>Home Schooling is more beneficial than regular schooling.</h2>
+			<p><a href="http://trueaimeducation.com/why-homeschool/">http://trueaimeducation.com/why-homeschool/</a></p></center>
 		</div>
 	</div>
-	<?php echo "<h1>hahaha</h1>" ?>
 	<div class="container">
 		<div class="row">
 			<div style="display:none"class="move2 col-sm-10 col-sm-offset-1">
@@ -61,7 +60,7 @@
 				<br><br>
 				<div class="row">
 					<div class="col-sm-11 col-sm-offset-1">
-						<?php include("comments.php"); ?>
+						<?php include("agree-comments.php"); ?>
 					</div>
 				</div>	
 			</div>
@@ -78,7 +77,7 @@
 				<br><br>
 				<div class="row">
 					<div class="col-sm-11">
-						<?php include("comments.php"); ?>
+						<?php include("disagree-comments2.php"); ?>
 					</div>
 				</div>	
 			</div>

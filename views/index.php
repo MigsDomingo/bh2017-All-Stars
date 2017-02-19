@@ -21,6 +21,7 @@
 					<a href=""><li>Theology</li></a>
 					<a href=""><li>Films</li></a>
 					<a href=""><li>Philosophy</li></a>
+					<li><a href="">hue</a></li>
 				</ul>
 			</div>
 			<div class="col-md-9">
@@ -37,10 +38,9 @@
 							</a>
 						</div>
 						<div class="media-body">
-							<h4 class="media-heading"><a href="content.php">The metaphysics of memes is a growing field.</a></h4>
+							<h4 class="media-heading"><a href="content.php">Home Schooling is more beneficial than regular schooling.</a></h4>
 							<small>
-								Submitted an hour ago by <a href="">dankMemes</a> to <a href="">PHILOSOPHY</a><br>
-								Submitted an hour ago by <a href="profile.php">dankMemes</a> to <a href="">PHILOSOPHY</a><br>
+								Submitted an hour ago by <a href="profile.php">MrButch</a> to <a href="">EDUCATION</a><br>
 								<a href=""><b>9999 comments</b></a>
 							</small><br>
 						</div>
