@@ -56,8 +56,8 @@
 						<div class="media-body">
 							<h4 class="media-heading"><a href="">Home Schooling is more beneficial than regular schooling.</a></h4>
 							<small>
-								Submitted 23 hours ago by <a href="">ChristIsGood</a> to <a href="">EDUCATION</a><br>
-								<a href=""><b>231 comments</b></a>
+								Submitted 23 hours ago by <a href="">MrButch</a> to <a href="">EDUCATION</a><br>
+								<a href=""><b>9999 comments</b></a>
 							</small><br>
 						</div>
 						<hr>
