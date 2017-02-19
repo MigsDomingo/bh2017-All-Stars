@@ -11,7 +11,6 @@
 			<p><a href="http://memes.com">http://memes.com</a></p></center>
 		</div>
 	</div>
-	<?php echo "<h1>hahaha</h1>" ?>
 	<div class="container">
 		<div class="row">
 			<div style="display:none"class="move2 col-sm-10 col-sm-offset-1">

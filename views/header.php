@@ -20,17 +20,17 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="index.php">FactSource</a>
+    <a class="navbar-brand" href="index.php">Sourciety</a>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <div class="col-sm-5 col-md-5">
-        <form class="navbar-form" role="search">
+        <form class="navbar-form" method="get" role="search" action="search.php">
         <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" name="q">
+            <input type="text" class="form-control" placeholder="Search" name="regName">
             <div class="input-group-btn">
-                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                <button class="btn btn-default"  type="submit"><i class="glyphicon glyphicon-search"></i></button>
             </div>
         </div>
         </form>
@@ -40,7 +40,6 @@
 	      <li class="dropdown">
 	        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Notifications<b class="caret"></b></a>
 	        <ul class="dropdown-menu">
-	          <li>asghdkfasjhdfgjaskhfgjakhsgfjkasdhgfjkashgfjkashgfjkashfgjkashgfjaskhfg</li>
 	          <li><a href="#">Another action</a></li>
 	          <li><a href="#">Something else here</a></li>
 	          <li class="divider"></li>
