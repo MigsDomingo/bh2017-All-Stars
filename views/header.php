@@ -20,38 +20,38 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="index.php">FactSource</a>
+    <a class="navbar-brand" href="index.php">Sourciety</a>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <div class="col-sm-5 col-md-5">
-        <form class="navbar-form" role="search">
+        <form class="navbar-form" method="get" role="search" action="search.php">
         <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" name="q">
+            <input type="text" class="form-control" placeholder="Search" name="regName">
             <div class="input-group-btn">
-                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                <button class="btn btn-default"  type="submit"><i class="glyphicon glyphicon-search"></i></button>
             </div>
         </div>
         </form>
     </div>
     <div>
 	    <ul class="nav navbar-nav navbar-right">
-		  <?php if(isset($_SESSION)){
-			echo '<li class="dropdown">
+	      <li class="dropdown">
 	        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Notifications<b class="caret"></b></a>
 	        <ul class="dropdown-menu">
-	          <li>asghdkfasjhdfgjaskhfgjakhsgfjkasdhgfjkashgfjkashgfjkashfgjkashgfjaskhfg</li>
 	          <li><a href="#">Another action</a></li>
 	          <li><a href="#">Something else here</a></li>
 	          <li class="divider"></li>
 	          <li><a href="#">Separated link</a></li>
 	        </ul>
-			</li>';
-		  }else{
-			   echo '<li><a href="#" data-toggle="modal" data-target=".bs-register-modal-sm" id="re">Register</a></li>';
-			   echo '<li><a href="#" data-toggle="modal" data-target=".bs-login-modal-sm" id="login">Login</a></li>';
-		  } ?>
+	      </li>
+	      <li>
+	        <a href="#" data-toggle="modal" data-target=".bs-register-modal-sm">Register</a>
+	      </li>
+		  <li>
+	        <a href="#" data-toggle="modal" data-target=".bs-login-modal-sm">Login</a>
+	      </li>
 	    </ul>
 		<div class="modal fade bs-register-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
 			<div class="modal-dialog modal-sm" role="document">
@@ -109,7 +109,7 @@
 					<div class="modal-body">
 						<form role="form">
 			    			<div class="form-group">
-			    				<input type="text" name="username" id="username" class="form-control input-sm" placeholder="Username">
+			    				<input type="text" name="user" id="user" class="form-control input-sm" placeholder="Username">
 			    			</div>
 							<div class="form-group">
 			    				<input type="password" name="password" id="password" class="form-control input-sm" placeholder="Password">
