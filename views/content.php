@@ -14,20 +14,33 @@
 	<div class="container">
 		<div class="row">
 			<div style="display:none"class="move2 col-sm-10 col-sm-offset-1">
-				<button class="move-back btn btn-default col-sm-10 col-sm-offset-2">back</button>
-
+				<button class="move-back btn btn-info col-sm-10 col-sm-offset-2">Agree</button>
+				<button style="display:none" class="move-back2 btn btn-danger col-sm-10 col-sm-offset-2">Disagree</button>
 									<br>
 									<br>
 									<br>
 				<form class="form-horizontal">
 				  <div class="form-group">
-				    <label class="control-label col-sm-2">Password</label>
+				    <label class="control-label col-sm-2">Title</label>
 				    <div class="col-sm-10">
-				    	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+				    	<input type="text" class="form-control" placeholder="Title/Thesis Statement">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label class="control-label col-sm-2">Source/s</label>
+				    <div class="col-sm-10">
+				    	<input type="text" class="form-control" placeholder="Source/s">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label class="control-label col-sm-2">Argument</label>
+				    <div class="col-sm-10">
+				    	<input type="textarea" class="form-control" rows="3">
 				    </div>
 				  </div>
 				  <div class="col-sm-offset-2">
 				  	<button type="submit" class="btn btn-primary">Submit</button>
+				  	<input type="button" class="btn btn-default btn-cancel" value="Cancel"/>
 				  </div>
 				</form>
 			</div>
@@ -73,11 +86,27 @@
 	<script type="text/javascript">
 	$(document).ready(function () {
     	$('.move2').hide();
-		$('.btn-main').click(function(){
+		$('.btn-agree').click(function(){
 			$('.move').slideUp();
 			$('.move2').slideDown();
+			$('.move-back2').slideUp();
+			$('.move-back').slideDown();
+		});
+		$('.btn-disagree').click(function(){
+			$('.move').slideUp();
+			$('.move2').slideDown();
+			$('.move-back').slideUp();
+			$('.move-back2').slideDown();
 		});
 		$('.move-back').click(function(){
+			$('.move-back').slideUp();
+			$('.move-back2').slideDown();
+		});
+		$('.move-back2').click(function(){
+			$('.move-back2').slideUp();
+			$('.move-back').slideDown();
+		});
+		$('.btn-cancel').click(function(){
 			$('.move2').slideUp();
 			$('.move').slideDown();
 		});

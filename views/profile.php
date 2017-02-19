@@ -4,21 +4,7 @@
 	<title></title>
 </head>
 <body>
-
 	<?php include("header.php"); ?>
-	<?php
-		$sql = "select * from fact";	
-		$result = mysqli_query($con,$sql);
-		$response = array();
-
-		while($row = mysqli_fetch_array($result))
-		{
-			array_push($response,array("id"=>$row[0],"uid"=>$row[1],"category"=>$row[2],"title"=>$row[3],"comment_id"=>$row[4]));
-		}
-		echo $row[0];
-		/*echo json_encode(array("server_response"=>$response));
-		mysqli_close($con);*/
-	?>
 	<br><br><br>
 	<div class="container padding">
 		<div class="row">
@@ -36,18 +22,6 @@
 				<a><h3>This is a header</h3></a>
 				<p>Hello! This is the content of the shitty things you've done to me.</p>
 			</div>-->
-			<div class="row">
-				<form class="form-horizontal">
-				  <div class="form-group">
-				    <div class="col-sm-10">
-				    	<input type="text" class="form-control" placeholder="Insert a fact you want to be confirmed.">
-				    </div>
-				    <div class="col-sm-2">
-				  	<button type="submit" class="btn btn-primary">Submit</button>
-				  </div>
-				  </div>
-				</form>
-			</div>
 			<br>
 			<div class="row">
 				<ul class="media-list">
@@ -60,7 +34,7 @@
 						<div class="media-body">
 							<h4 class="media-heading"><a href="content.php">The metaphysics of memes is a growing field.</a></h4>
 							<small>
-								Submitted an hour ago by <a href="profile.php">dankMemes</a> to <a href="">PHILOSOPHY</a><br>
+								Submitted an hour ago by <a href="">dankMemes</a> to <a href="">PHILOSOPHY</a><br>
 								<a href=""><b>9999 comments</b></a>
 							</small><br>
 						</div>

@@ -92,3 +92,10 @@ a:hover,a:visited {
 .move2{
   display:hidden;
 }
+
+.source{
+    display:block; width: 440px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
