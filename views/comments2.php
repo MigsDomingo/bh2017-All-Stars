@@ -1,6 +1,6 @@
 <div class="media">
 	<div class="media-left">
-		<img src="../imgs/pie-100-0.png" alt="..." class="media-object img-circle" alt="..." width="50px">
+		<img src="../imgs/pie-0-100.png" alt="..." class="media-object img-circle" alt="..." width="50px">
 	</div>
 	<div class="media-body">
 		<h4 class="media-heading">John Doe <small><i>Posted on February 19, 2016</i></small></h4>
@@ -9,7 +9,7 @@
 		<!-- Nested media object -->
 		<div class="media">
 			<div class="media-left">
-				<img src="../imgs/pie-100-0.png" alt="..." class="media-object img-circle" alt="..." width="50px">
+				<img src="../imgs/pie-0-100.png" alt="..." class="media-object img-circle" alt="..." width="50px">
 			</div>
 			<div class="media-body">
 				<h4 class="media-heading">John Doe <small><i>Posted on February 20, 2016</i></small></h4>
@@ -18,7 +18,7 @@
 				<!-- Nested media object -->
 				<div class="media">
 					<div class="media-left">
-						<img src="../imgs/pie-100-0.png" alt="..." class="media-object img-circle" alt="..." width="50px">
+						<img src="../imgs/pie-0-100.png" alt="..." class="media-object img-circle" alt="..." width="50px">
 					</div>
 					<div class="media-body">
 						<h4 class="media-heading">John Doe <small><i>Posted on February 21, 2016</i></small></h4>
@@ -29,7 +29,7 @@
 			<!-- Nested media object -->
 			<div class="media">
 				<div class="media-left">
-					<img src="../imgs/pie-100-0.png" alt="..." class="media-object img-circle" alt="..." width="50px">
+					<img src="../imgs/pie-0-100.png" alt="..." class="media-object img-circle" alt="..." width="50px">
 				</div>
 				<div class="media-body">
 					<h4 class="media-heading">Jane Doe <small><i>Posted on February 20, 2016</i></small></h4>
@@ -43,7 +43,7 @@
 	<!-- Nested media object -->    
 	<div class="media">
 		<div class="media-left">
-			<img src="../imgs/pie-100-0.png" alt="..." class="media-object img-circle" alt="..." width="50px">
+			<img src="../imgs/pie-0-100.png" alt="..." class="media-object img-circle" alt="..." width="50px">
 		</div>
 		<div class="media-body">
 			<h4 class="media-heading">Jane Doe <small><i>Posted on February 19, 2016</i></small></h4>
